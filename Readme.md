@@ -38,13 +38,11 @@ function OnCustomButtonClick(s, e) {
 }
 ```
 
-3. Handle the client [BatchEditStartEditing](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.BatchEditStartEditing) event to insert values of the previous row to the newly created row.
+3. Handle the client [BatchEditStartEditing](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.BatchEditStartEditing) event to insert values of the previous row to the newly created row. Use the [rowValues](https://docs.devexpress.com/AspNet/js-ASPxClientGridViewBatchEditStartEditingEventArgs.rowValues) object to define a value for cells in edit mode (every cell in Row edit mode and the focused cell in Cell edit mode) and the client [SetCellValue](https://docs.devexpress.com/AspNet/js-ASPxClientGridViewBatchEditApi.SetCellValue(visibleIndex-columnFieldNameOrId-value)) method to assign values to cells that are not in edit mode (unfocused cells in Cell edit mode).
 
 ```aspx
 <ClientSideEvents CustomButtonClick="OnCustomButtonClick" BatchEditStartEditing="OnStartEdit" />
 ```
-
-Use the [rowValues](https://docs.devexpress.com/AspNet/js-ASPxClientGridViewBatchEditStartEditingEventArgs.rowValues) object to define a value for cells in edit mode (every cell in Row edit mode and the focused cell in Cell edit mode) and the client [SetCellValue](https://docs.devexpress.com/AspNet/js-ASPxClientGridViewBatchEditApi.SetCellValue(visibleIndex-columnFieldNameOrId-value)) method to assign values to cells that are not in edit mode (unfocused cells in Cell edit mode).
 
 ```js
 function OnStartEdit(s, e) {
