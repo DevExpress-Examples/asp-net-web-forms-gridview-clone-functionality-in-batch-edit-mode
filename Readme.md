@@ -76,7 +76,7 @@ function ProcessCells(selectedIndex, e, column, s) {
 
 ## Documentation
 - [Batch Edit Mode](https://docs.devexpress.com/AspNet/16443/components/grid-view/concepts/edit-data/batch-edit-mode)
-- [How to: Create Custom Command Buttons](https://docs.devexpress.com/AspNet/4023/components/grid-view/examples/how-to-create-custom-command-buttons?p=netframework)
+- [How to: Create Custom Command Buttons](https://docs.devexpress.com/AspNet/4023/components/grid-view/examples/how-to-create-custom-command-buttons)
 
 ## More Examples
-- [GridView for MVC - How to implement clone functionality in Batch Edit mode](asp-net-mvc-gridview-clone-functionality-in-batch-edit)
+- [GridView for MVC - How to implement clone functionality in Batch Edit mode](https://github.com/DevExpress-Examples/gridview-how-to-implement-copy-clone-functionality-in-batch-edit-mode-t115891)
