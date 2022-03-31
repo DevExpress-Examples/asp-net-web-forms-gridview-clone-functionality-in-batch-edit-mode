@@ -9,7 +9,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/t114985/)**
 <!-- run online end -->
 
-This example demonstrates how implement a custom **Copy** button that allows users to clone a row in [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) in batch edit mode. 
+This example demonstrates how to implement a custom **Copy** button that allows users to clone a row in [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) in batch edit mode.
 
 ![Grid View - Clone a Row](clone-grid-line.png)
 
@@ -38,7 +38,7 @@ function OnCustomButtonClick(s, e) {
 }
 ```
 
-3. Handle the client [BatchEditStartEditing](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.BatchEditStartEditing) event to insert values of the previous row to the newly created row.
+3. Handle the client [BatchEditStartEditing](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.BatchEditStartEditing) event to insert values of the previous row into the newly created row.
 
     Use the [rowValues](https://docs.devexpress.com/AspNet/js-ASPxClientGridViewBatchEditStartEditingEventArgs.rowValues) object to define a value for cells in edit mode (every cell in Row edit mode and the focused cell in Cell edit mode) and the client [SetCellValue](https://docs.devexpress.com/AspNet/js-ASPxClientGridViewBatchEditApi.SetCellValue(visibleIndex-columnFieldNameOrId-value)) method to assign values to cells that are not in edit mode (unfocused cells in Cell edit mode).
 
