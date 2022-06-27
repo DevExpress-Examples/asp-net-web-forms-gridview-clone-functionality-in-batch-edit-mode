@@ -6,7 +6,7 @@
 
 # GridView for Web Forms - How to implement clone functionality in batch edit mode
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t114985/)**
+**[[Run Online]](https://codecentral.devexpress.com/128534694/)**
 <!-- run online end -->
 
 This example demonstrates how to implement a custom **Copy** button that allows users to clone a row in [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) in batch edit mode.
