@@ -4,8 +4,7 @@ Imports System.Collections.Specialized
 Imports System.ComponentModel
 Imports System.Linq
 Imports DevExpress.Web.Data
-Imports DevExpress.Web.ASPxGridView
-Imports DevExpress.Web.ASPxEditors
+Imports DevExpress.Web
 
 Partial Public Class _Default
     Inherits System.Web.UI.Page
