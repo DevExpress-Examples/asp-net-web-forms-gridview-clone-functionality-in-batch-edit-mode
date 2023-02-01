@@ -49,7 +49,7 @@ function OnCustomButtonClick(s, e) {
 ```js
 function OnStartEdit(s, e) {
   // ...
-  for (var i = 0; i < s.GetColumnsCount() ; i++) {
+  for (var i = 0; i < s.GetColumnCount() ; i++) {
       var column = s.GetColumn(i);
       if (column.visible == false || column.fieldName == undefined)
           continue;
