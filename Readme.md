@@ -78,7 +78,7 @@ function ProcessCells(selectedIndex, e, column, s) {
 ## More Examples
 - [GridView for MVC - How to implement clone functionality in Batch Edit mode](https://github.com/DevExpress-Examples/gridview-how-to-implement-copy-clone-functionality-in-batch-edit-mode-t115891)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-gridview-clone-functionality-in-batch-edit-mode&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-gridview-clone-functionality-in-batch-edit-mode&~~~was_helpful=no)
 
